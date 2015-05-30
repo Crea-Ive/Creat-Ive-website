@@ -13,6 +13,9 @@ body {
     color: #777;
 }
 
+.text-contact {
+    color: #ffffff;
+}
 .text-primary {
     color: #fed136;
 }
@@ -253,7 +256,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #005060;
+        background-color: #00b6ba;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -265,7 +268,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/header-bg.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -338,7 +341,14 @@ section h3.section-subheading {
     font-style: italic;
     font-weight: 400;
 }
-
+section h7.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+}
 @media(min-width:768px) {
     section {
         padding: 150px 0;
@@ -652,7 +662,7 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: #005060;
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
